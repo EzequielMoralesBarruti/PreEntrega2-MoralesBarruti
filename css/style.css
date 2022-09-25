@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Slabo+27px&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Slabo+27px&display=swap');
 
-
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -26,9 +22,7 @@ header{
 .menu{
     
     background: #00000062;
-    /*background: linear-gradient(90deg,#99f8af 0%, #f3ff00 80%);
-    background: -webkit-linear-gradient(90deg,#99f8af 0%, #f3ff00 80%);
-    background: -moz-linear-gradient(90deg,#99f8af 0%, #f3ff00 80%);*/
+
     font-family: 'Roboto', sans-serif;
 }
 
@@ -88,12 +82,8 @@ header{
     padding: 20px;
 }
 
-.Card1{
-    display: flex;
-    margin-left: 50px;
-    justify-content: flex-start;
-    
-}
+
+
 #Inicial{
     width:100vw;
     height:100vh;
@@ -468,6 +458,22 @@ ul {
          flex-direction: column;
          
         
+    }
+
+    #Inicial {
+        height: auto;
+        display: flex;
+       flex-direction: column;
+       flex-wrap: nowrap;
+         
+    }
+
+    #Avanzado {
+        height: auto;
+        display: flex;
+       flex-direction: column;
+       flex-wrap: nowrap;
+         /*justify-content: space-around;*/
     }
     .galeria{
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
